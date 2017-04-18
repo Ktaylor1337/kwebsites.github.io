@@ -30,6 +30,10 @@
 
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
  
 
     <!-- Bootstrap core CSS -->
@@ -64,6 +68,24 @@
 
     </style>
 
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
  
 
  
@@ -92,27 +114,23 @@
 
   <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
- 
 
-<nav class="nav">
-  <ul>
-    <li><a href="#bloco1" class="link">Home</a></li>
-    <li><a href="#bloco2" class="link">About Us</a></li>
-    <li><a href="#bloco3" class="link">Staff</a></li>
-    <li><a href="#bloco4" class="link">Services</a></li>
-    <li><a href="#bloco5" class="link">Appointments</a></li>
-    <li><a href="#bloco6" class="link">Prescriptions</a></li>
-    <li><a href="#bloco7" class="link">Health</a></li>
-    <li><a href="#bloco8" class="link">Patient Info</a></li>
-    <li><a href="#bloco9" class="link">Useful Links</a></li>
-    <li><a href="#bloco10" class="link">CQC Report</a></li>
-    <li><a href="#bloco11" class="link">Complaining to NHS England</a></li>
-  </ul>
-</nav>
+<div class="navbar" style="margin-bottom: 3px; margin-top: -5px">
+<ul>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco1">Sheffield Medical Centre</a></li>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco2">About Us</a></li>
+<li style="padding: 50px; font-weight: 600;"><a href="#bloco3">Clinic Staff and Times</a></li>
+</ul>
+</div>
 
-<div class="blocks" id="bloco1"><img src="images/pic-1.jpg" style="position: absolute; width: 100%; height: inherit; opacity: 0.6;">
-<h1 style="text-align: center; margin-top: 70px; text-size: 100px; font-size: 70px; position: relative">Sheffield Medical Centre</h1>
-<p style="position: relative; text-align: center; font-size: 30px">
+
+    
+
+
+
+<div class="blocks" id="bloco1" style="position: relative; background: #fff"><img src="images/pic-1.jpg" style="position: absolute; width: 100%; height: inherit; opacity: 0.6; background-repeat: no-repeat;">
+<h1 style="text-align: center; margin-top: 70px; text-size: 100px; font-size: 70px; position: relative; font-family: Overpass, sans serif">Sheffield Medical Centre</h1>
+<p style="position: relative; text-align: center; font-size: 30px; font-family: Overpass, sans serif">
 <br>
 21 Spital Street
 <br>
@@ -122,148 +140,170 @@ Sheffield
 <br>
 S3 9LB 
 <br>
-0114 2727042</p>
+0114 2727042
+<br>
 </div>
-<div class="blocks" id="bloco2"></div>
-<div class="blocks" id="bloco3"></div>
-<div class="blocks" id="bloco4"></div>
-<div class="blocks" id="bloco5"></div>
-<div class="blocks" id="bloco6"></div>
-<div class="blocks" id="bloco7"></div>
-<div class="blocks" id="bloco8"></div>
-<div class="blocks" id="bloco9"></div>
-<div class="blocks" id="bloco10"></div>
-<div class="blocks" id="bloco11"></div>
-
-        </div><!--/.nav-collapse -->
-
-      </div>
-
-    </nav>
-
- 
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-
-    <div class="jumbotron" style="text-align: center;">
-
- 
-
- 
-
-    <div id="jumbotron" class="container" style="margin-bottom: 0px; text-align: left">
-
-    <h1>welcome</h1>
-
-    <p style="font-family: arial">This is an example of a HTML/CSS website</p>
-
-     <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#myModal">click to see cute cats &raquo;</a></p>
-
-     <p style="margin-bottom: -70px"></p>
-
-       <!-- Modal -->
-
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-
-    <div class="modal-dialog" role="document">
-
-      <div class="modal-content">
-
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; opacity: 0.8; right: 3px"><span aria-hidden="true">×</span></button>
-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OgWO_jhVIns?showinfo=0" frameborder="0" allowfullscreen style="margin-top: 10px; margin-bottom: 5px; margin-right: -30px; margin-left: 10px"></iframe>
-
-        </div>
-
-        <div class="modal-footer">
-
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-          <button type="button" class="btn btn-primary">Save changes</button>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-    </div>
-
- 
-
- 
-
- 
-
-    <div id="who" style="background-color:#F9F3FF; margin-left: -70px">
-
-      <div class="container homepage">
-
-      <h2>Preface</h2>
-
-      <p style="font-family: arial">Welcome to my first website. I have created this using a mixture of HTML5, CSS3, and Javascript. I have kept it relatively simple; the purpose being more to test new functions than to function as a website in its own right.</p>
-
-      </div>
-
-    </div>
-
- 
-
- 
-
-    <div id="get-involved">
-
-      <div class="container homepage">
-
-           <h2>Say hi</h2>
-
-    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-
-    Name:<br>
-
-    <input type="text" name="name"><br>
-
-    E-mail:<br>
-
-    <input type="text" name="mail"><br>
-
-    Comment:<br>
-
-    <input type="text" name="comment" size="50"><br><br>
-
-    <input type="submit" value="Send">
-
-    <input type="reset" value="Reset">
-
-    </form>
-
-        </div> <!-- /container -->
-
-        </div>
-
- 
-
-    
-
- 
-
-    <footer>
-
-    <div class="container"
-
-      <p>Kate Taylor 2017</p>
-
-       <div id="back-to-top">
-
-    <a href="#jumbotron"><i class="fa fa-3x fa-chevron-up" aria-hidden="true"></i>
-
-    </div></a>
-
-      </div>
-
-    </footer>
+<div class="blocks" id="bloco2">
+<div class="row" style="background: #fcfcfc; border: 2px solid #f2f2f2">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>About Us</h4>
+<p>We aim to provide a high standard of medical care in a friendly and professional manner. You can help us achieve our aim by browsing this site and following the suggestions made to ensure that appropriate services can be provided when you most need them. The site contains useful information about how to get the most from a visit to your surgery.</p>
+<br>
+<p>You can register at the practice by medical card/registration form. You will be offered a new patient check up appointment. Registration is subject to doctors/nurses decision.</p>
+<br>
+<p>Log on to our online system, SystmOnline, to access your patient records and make an appointment.</p>
+<br>
+<button class="button-style" style="width: 150px;
+    height: 50px;
+    background: white;
+    border: 2px solid;">SystmOnline</button>
+</div>
+
+
+<div class="col-md-6" style="padding: 50px; margin-top: -60px;">
+<div id="googleMap" style="width:100%;height:400px; margin-top: 65px"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+</div>  
+
+
+
+<div class="blocks" id="bloco3">
+<div class="row" style="padding-top: 30px; background: #f7f7f7; border: 2px solid #f2f2f2;">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>Staff</h4>
+<p><strong>Clinical Staff</strong>
+<br>
+Dr Chinyere Nwafor  MBBS, MSC, DRCOG, MRCGP (female part-time)
+<br>
+Dr Ngozi Wosu Ezi MBBS, FRCOG, MRCGP, DFFP (male part-time)
+<br>
+Heather Robins-White  RGN, BA, MSC, DHP, Nurse Prescriber
+<br>
+<br>
+<strong>Key Personnel</strong>
+<br>
+Practice Manager  Julie King Dip PM
+<br>
+Medical Secretary/ Receptionist Tina Moran-Healy Amspar Dip HSR
+<br>
+Senior Receptionist Ann Nalty
+<br>
+Bilingual Receptionist  Khadra Ali (Somali/Arabic)
+<br>
+Pharmacist  Neil Heslop B.S.c, MRPharms</p>
+</div>
+
+<div class="row">
+<div class="col-md-4" style="
+    margin-left: 80px; width: 40%;
+    "">
+<h4>Clinic Times</h4>
+<br>
+
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Time</th>
+    <th>Service</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>15:00-17:30</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>15:00-17:30</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td>13:00-18:00</td>
+    <td>Closed</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>9:00-10:30</td>
+    <td>Phlebotomy</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>10:30-13:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+   <tr>
+    <td>Friday</td>
+    <td>15:00-18:00</td>
+    <td>Miscellaneous</td>
+  </tr>
+</table>
+</div>
+
+
+
+<div id="footer" class="container" style="padding: 7px">
+<br>
+<br>
+<p style="text-align: center">Â© 2017 Copyright Sheffield Medical Centre</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+  
 
  
 
@@ -287,11 +327,33 @@ S3 9LB
 
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+    <script src="js/menu2.js"></script>
+
+
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
     <script src="js/smoothscroll.js"></script>
+
+    <script>function buttonclick()  
+{  
+    var menuList = document.getElementById("menu");  
+    if (menuList.className == "menuOff")  
+    {  
+  
+        menuList.className = "menuOn";  
+    } else  
+    {  
+  
+        menuList.className = "menuOff";  
+    }  
+}</script>  
+    
+    
 
   </body>
 
