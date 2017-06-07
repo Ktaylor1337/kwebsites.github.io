@@ -1,0 +1,27 @@
+ 
+body {
+
+
+
+.iframe {
+	width: 600px;
+	height: 600px;
+
+}
+
+#randomize {
+	text-align: center;
+	    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 30p;
+    margin: 30px;
+}
+
+.quote {
+	text-align: center;
+}
+
+ h1 {
+	text-align: center;
+}

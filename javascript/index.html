@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Javascript Playground</title>
+    <link rel='stylesheet' href='custom-css.css'/>
+  </head>
+
+
+  <body>
+<div clas="header">
+    <h1 style="text-align: center">Random Philosopher</h1>
+</div>
+
+
+
+<div id="wrapper" style="text-align: center">
+  <div class="quote">
+  <iframe src="http://www.iep.utm.edu/socrates/" height="500"; width=600;></iframe>
+  </div>
+  <div class="quote">
+     <iframe src="http://www.iep.utm.edu/hume/" height="500"; width=600;></iframe>
+  </div>
+  <div class="quote">
+     <iframe src="http://www.iep.utm.edu/sartre-ex/" height="500"; width=600;></iframe>
+  </div>
+  <div class="quote">
+     <iframe src="http://www.iep.utm.edu/aristotl/" height="500"; width=600;></iframe>
+  </div>
+  <div class="quote">
+     <iframe src="http://www.iep.utm.edu/nietzsch/" height="500"; width=600;></iframe>
+  </div>
+</div>
+
+<div style="text-align: center">
+    <button id='randomize' style="    background: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 30p;
+    margin: 30px;">Generate a philosopher</button>
+    </div>
+ 
+
+
+<p id="sampleText">Hi my name is</p>
+
+<button id="button1">Click</button>
+
+<script>
+
+document.getElementById("button1").onclick = function() {
+
+document.getElementById("sampleText").innerHTML = document.getElementById("sampleText").innerHTML + " Kate"; 
+
+
+
+
+
+
+}
+
+</script>
+    
+    
+    <script src="javascript.js"></script>
+
+  </body>
+</html>

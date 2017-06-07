@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Test</title>
+    <link rel='stylesheet' href='custom-css.css'/>
+  </head>
+
+<body>
+
+<h1>Test</h1>
+
+<div id="quote1" style="display: none">this is quote number 1</div>
+
+<div id="quote2" style="display: none">this is quote number 2</div>
+
+<div id="quote3" style="display: none">this is quote number 3</div>
+
+<button onclick="call();">Randomise</button>
+
+
+
+<script type="text/javascript">
+
+
+var callOne = true;
+
+function one(){
+document.getElementById("quote1").style.display = "block";
+document.getElementById("quote2").style.display = "none"
+}
+
+function two () {
+document.getElementById("quote1").style.display = "none";
+document.getElementById("quote2").style.display = "block"
+}
+
+
+function call(){
+	if(callOne) one();
+	else two(); 
+	callOne = !callOne;
+}
+
+
+
+
+
+
+</script>
+
+
+</body>
